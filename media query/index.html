@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h2 class="h">STUDENT REGISTRATION FORM</h2>
+    <form action="submit.html" method="get">
+      <div class="form">
+        <label for="firstname">FirstName:</label>
+        <input
+          type="text"
+          name="firstname"
+          size="30"
+          placeholder="Enter your Firstname"
+        /><br />
+        <label for="lastname">LastName:</label>
+        <input
+          type="text"
+          name="lastname"
+          size="30"
+          placeholder="Enter your lastname"
+        /><br />
+        <label for="date of birth">Date of Birth:</label>
+        <input
+          type="date"
+          name="date of birth"
+          size="20"
+          placeholder="date of birth"
+        /><br />
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" placeholder="E-Mail" /><br />
+        <label for="mobile number">Mobile Number:</label>
+        <input
+          text="number"
+          name="mobile number"
+          size="30"
+          maxlength="12"
+          placeholder="Mobile Number"
+        /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="Female" name="gender" value="Female" />
+        <label for="Female">Female</label>
+        <input type="radio" id="Male" name="gender" value="Male" />
+        <label for="Male">Male</label><br />
+        <lable for="resume">Upload Resume</lable>
+        <input type="file" id="resume" name="resume" /><br />
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="3" cols="30"></textarea
+        ><br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
